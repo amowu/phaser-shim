@@ -2,7 +2,7 @@
 
 A shim to make Phaser HTML5 game engine from NPM work with Webpack, and build properly.
 
-> [Phaser doesn't work with Webpack and require](photonstorm/phaser#1974)
+> [Phaser doesn't work with Webpack and require](https://github.com/photonstorm/phaser/issues/1974)
 
 ## Installation
 
@@ -53,7 +53,7 @@ module: {
   // ...
   loaders: [{
     loader: 'script',// script-loader
-    test: /(pixi\.js|phaser\.js)/
+    test: /(pixi|phaser).js/
   }],
   // ...
 }
