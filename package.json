@@ -1,6 +1,6 @@
 {
   "name": "phaser-shim",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "A shim to make Phaser HTML5 game engine from NPM work with Webpack, and build properly.",
   "author": "Amo Wu <amo260@gmail.com> (https://github.com/amowu)",
   "license": "MIT",
