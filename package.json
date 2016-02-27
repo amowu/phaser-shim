@@ -10,7 +10,8 @@
     "url": "git+https://amowu@github.com/amowu/phaser-shim.git"
   },
   "scripts": {
-    "prepublish": "cd node_modules/phaser && npm install && grunt custom --exclude p2,creature,ninja --split true && mkdir -p '../../dist' && cp -R 'dist' '../../'"
+    "build": "cd node_modules/phaser && npm install && grunt custom --exclude p2,creature,ninja --split true && mkdir -p '../../dist' && cp -R 'dist' '../../'",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "2d",
