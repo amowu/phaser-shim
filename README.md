@@ -58,3 +58,12 @@ module: {
   // ...
 }
 ```
+
+## Development
+
+If you want to use other Phaser version (old or new) in yourself:
+
+1. Fork this repo and git clone to local.
+2. `npm install` with node v4.x
+3. `npm run build` to building `dist/pixi` and `dist/phaser`
+4. now you can `require` or `import` your `phaser-shim`
