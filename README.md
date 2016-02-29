@@ -46,13 +46,13 @@ const game = new Game(800, 600);
 
 or several per module:
 
-```
+```js
 import {Game, State} from 'phaser-shim';
 ```
 
 or TypeScript:
 
-```
+```typescript
 /// <reference path="../node_modules/phaser/typescript/phaser.comments.d.ts" />
 
 declare module 'phaser-shim' {
