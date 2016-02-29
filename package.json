@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "cd node_modules/phaser && grunt custom --exclude p2,creature,ninja --split true",
-	"postbuild": "gulp build",
+    "postbuild": "gulp build",
     "prepublish": "npm run build"
   },
   "keywords": [
